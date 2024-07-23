@@ -23,6 +23,7 @@ document.write(`
   <a id="Global:ClearPlayerEvents" class="fn" href="../Global/ClearPlayerEvents.html">ClearPlayerEvents</a>
   <a id="Global:ClearPlayerGossipEvents" class="fn" href="../Global/ClearPlayerGossipEvents.html">ClearPlayerGossipEvents</a>
   <a id="Global:ClearServerEvents" class="fn" href="../Global/ClearServerEvents.html">ClearServerEvents</a>
+  <a id="Global:ClearTicketEvents" class="fn" href="../Global/ClearTicketEvents.html">ClearTicketEvents</a>
   <a id="Global:ClearUniqueCreatureEvents" class="fn" href="../Global/ClearUniqueCreatureEvents.html">ClearUniqueCreatureEvents</a>
   <a id="Global:ClearUnitEvents" class="fn" href="../Global/ClearUnitEvents.html">ClearUnitEvents</a>
   <a id="Global:CreateLongLong" class="fn" href="../Global/CreateLongLong.html">CreateLongLong</a>
@@ -87,6 +88,7 @@ document.write(`
   <a id="Global:RegisterPlayerEvent" class="fn" href="../Global/RegisterPlayerEvent.html">RegisterPlayerEvent</a>
   <a id="Global:RegisterPlayerGossipEvent" class="fn" href="../Global/RegisterPlayerGossipEvent.html">RegisterPlayerGossipEvent</a>
   <a id="Global:RegisterServerEvent" class="fn" href="../Global/RegisterServerEvent.html">RegisterServerEvent</a>
+  <a id="Global:RegisterTicketEvent" class="fn" href="../Global/RegisterTicketEvent.html">RegisterTicketEvent</a>
   <a id="Global:RegisterUniqueCreatureEvent" class="fn" href="../Global/RegisterUniqueCreatureEvent.html">RegisterUniqueCreatureEvent</a>
   <a id="Global:RegisterUnitEvent" class="fn" href="../Global/RegisterUnitEvent.html">RegisterUnitEvent</a>
   <a id="Global:ReloadEluna" class="fn" href="../Global/ReloadEluna.html">ReloadEluna</a>

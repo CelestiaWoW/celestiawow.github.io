@@ -240,6 +240,7 @@ searchIndex["Achievement"] = {
         [3, "ClearPlayerEvents", "", "Unbinds event handlers for either all <a class=\"mod\" href=\"Player/index.html\">Player</a> events, or one type of <a class=\"mod\" href=\"Player/index.html\">Player</a> event."],
         [3, "ClearPlayerGossipEvents", "", "Unbinds event handlers for either all of a <a class=\"mod\" href=\"Player/index.html\">Player</a>'s gossip events, or one type of event."],
         [3, "ClearServerEvents", "", "Unbinds event handlers for either all server events, or one type of event."],
+        [3, "ClearTicketEvents", "", "Unbinds event handlers for either all <a class=\"mod\" href=\"Ticket/index.html\">Ticket</a> events, or one type of <a class=\"mod\" href=\"Ticket/index.html\">Ticket</a> event."],
         [3, "ClearUniqueCreatureEvents", "", "Unbinds event handlers for either all of a <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s events, or one type of event."],
         [3, "ClearUnitEvents", "", "Unbinds event handlers for either all <a class=\"mod\" href=\"Unit/index.html\">Unit</a> events, or one type of <a class=\"mod\" href=\"Unit/index.html\">Unit</a> event."],
         [3, "CreateLongLong", "", "Returns an object representing a <code>long long</code> (64-bit) value."],
@@ -304,6 +305,7 @@ searchIndex["Achievement"] = {
         [3, "RegisterPlayerEvent", "", "Registers a <a class=\"mod\" href=\"Player/index.html\">Player</a> event handler."],
         [3, "RegisterPlayerGossipEvent", "", "Registers a <a class=\"mod\" href=\"Player/index.html\">Player</a> gossip event handler."],
         [3, "RegisterServerEvent", "", "Registers a server event handler."],
+        [3, "RegisterTicketEvent", "", "Registers a <a class=\"mod\" href=\"Ticket/index.html\">Ticket</a> event handler."],
         [3, "RegisterUniqueCreatureEvent", "", "Registers a <a class=\"mod\" href=\"Creature/index.html\">Creature</a> event handler for a <em>single</em> <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
         [3, "RegisterUnitEvent", "", "Registers a <a class=\"mod\" href=\"Unit/index.html\">Unit</a> event handler."],
         [3, "ReloadEluna", "", "Reloads the Lua engine."],
@@ -820,6 +822,12 @@ searchIndex["Achievement"] = {
         [3, "GetTargetDest", "", "Returns the target destination coordinates of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "IsAutoRepeat", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> is automatically repeating, <code>false</code> otherwise."],
         [3, "SetAutoRepeat", "", "Sets the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> to automatically repeat."],
+    ],
+    "paths": []
+};searchIndex["Ticket"] = {
+    "items": [
+        [0, "", "Ticket", "An instance of a spell, created when the spell is cast by a <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
+        [3, "GetMessage", "", ""],
     ],
     "paths": []
 };searchIndex["Unit"] = {
