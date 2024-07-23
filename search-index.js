@@ -878,7 +878,7 @@ searchIndex["Achievement"] = {
         [3, "GetRace", "", "Returns the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s race ID."],
         [3, "GetRaceAsString", "", "Returns the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s race's name in given or default locale or nil."],
         [3, "GetRaceMask", "", "Returns the race mask"],
-        [3, "GetShapeshiftForm", "", ""],
+        [3, "GetShapeshiftForm", "", "Returns Shapeshift form of the player."],
         [3, "GetSpeed", "", "Returns the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s speed of given [UnitMoveType]."],
         [3, "GetSpeedRate", "", "Returns the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s speed rate of given [UnitMoveType]."],
         [3, "GetStandState", "", "Returns the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s current stand state."],
