@@ -104,6 +104,7 @@ searchIndex["Achievement"] = {
         [3, "GetDefaultMovementType", "", "Returns the default movement type for this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
         [3, "GetExtraFlags", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s Extra flags."],
         [3, "GetHomePosition", "", "Returns position the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> returns to when evading from combat   or respawning."],
+        [3, "GetLoot", "", ""],
         [3, "GetLootMode", "", ""],
         [3, "GetLootRecipient", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> that can loot this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
         [3, "GetLootRecipientGroup", "", "Returns the <a class=\"mod\" href=\"Group/index.html\">Group</a> that can loot this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
@@ -459,6 +460,24 @@ searchIndex["Achievement"] = {
         [3, "GetRequiredLevel", "", "Returns the minimum level required to use this <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>."],
         [3, "GetSellPrice", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s sell price."],
         [3, "GetSubClass", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s subclass."],
+    ],
+    "paths": []
+};searchIndex["Loot"] = {
+    "items": [
+        [0, "", "Loot", "Inherits all methods from: none"],
+        [3, "AddItem", "", ""],
+        [3, "Clear", "", ""],
+        [3, "GenerateMoney", "", ""],
+        [3, "GetItems", "", ""],
+        [3, "GetMoney", "", ""],
+        [3, "GetUnlootedCount", "", ""],
+        [3, "HasItem", "", ""],
+        [3, "IsLooted", "", ""],
+        [3, "RemoveItem", "", ""],
+        [3, "SetItemLooted", "", ""],
+        [3, "SetMoney", "", ""],
+        [3, "SetUnlootedCount", "", ""],
+        [3, "UpdateItemIndex", "", ""],
     ],
     "paths": []
 };searchIndex["Map"] = {

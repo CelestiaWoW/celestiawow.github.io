@@ -25,6 +25,7 @@ document.write(`
   <a id="Creature:GetDefaultMovementType" class="fn" href="../Creature/GetDefaultMovementType.html">GetDefaultMovementType</a>
   <a id="Creature:GetExtraFlags" class="fn" href="../Creature/GetExtraFlags.html">GetExtraFlags</a>
   <a id="Creature:GetHomePosition" class="fn" href="../Creature/GetHomePosition.html">GetHomePosition</a>
+  <a id="Creature:GetLoot" class="fn" href="../Creature/GetLoot.html">GetLoot</a>
   <a id="Creature:GetLootMode" class="fn" href="../Creature/GetLootMode.html">GetLootMode</a>
   <a id="Creature:GetLootRecipient" class="fn" href="../Creature/GetLootRecipient.html">GetLootRecipient</a>
   <a id="Creature:GetLootRecipientGroup" class="fn" href="../Creature/GetLootRecipientGroup.html">GetLootRecipientGroup</a>
