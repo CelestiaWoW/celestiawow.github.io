@@ -466,18 +466,22 @@ searchIndex["Achievement"] = {
     "items": [
         [0, "", "Loot", "Inherits all methods from: none"],
         [3, "AddItem", "", ""],
+        [3, "AddLooter", "", ""],
         [3, "Clear", "", ""],
         [3, "GenerateMoney", "", ""],
         [3, "GetItems", "", ""],
         [3, "GetMoney", "", ""],
         [3, "GetUnlootedCount", "", ""],
         [3, "HasItem", "", ""],
+        [3, "HasItemForAll", "", ""],
         [3, "IsLooted", "", ""],
         [3, "RemoveItem", "", ""],
+        [3, "RemoveLooter", "", ""],
         [3, "SetItemLooted", "", ""],
         [3, "SetMoney", "", ""],
         [3, "SetUnlootedCount", "", ""],
         [3, "UpdateItemIndex", "", ""],
+        [3, "hasItemFor", "", ""],
     ],
     "paths": []
 };searchIndex["Map"] = {
