@@ -466,23 +466,28 @@ searchIndex["Achievement"] = {
     "items": [
         [0, "", "Loot", "Inherits all methods from: none"],
         [3, "AddItem", "", ""],
+        [3, "AddLooter", "", ""],
         [3, "Clear", "", ""],
         [3, "GenerateMoney", "", ""],
         [3, "GetItems", "", ""],
         [3, "GetMoney", "", ""],
         [3, "GetUnlootedCount", "", ""],
         [3, "HasItem", "", ""],
+        [3, "HasItemForAll", "", ""],
         [3, "IsLooted", "", ""],
         [3, "RemoveItem", "", ""],
+        [3, "RemoveLooter", "", ""],
         [3, "SetItemLooted", "", ""],
         [3, "SetMoney", "", ""],
         [3, "SetUnlootedCount", "", ""],
         [3, "UpdateItemIndex", "", ""],
+        [3, "hasItemFor", "", ""],
     ],
     "paths": []
 };searchIndex["Map"] = {
     "items": [
         [0, "", "Map", "A game map, e.g. Azeroth, Eastern Kingdoms, the Molten Core, etc."],
+        [3, "Data", "", "Returns a runtime-persistent cache tied to the <a class=\"mod\" href=\"Map/index.html\">Map</a>. This data will remain for as long as the <a class=\"mod\" href=\"Map/index.html\">Map</a> exists, or until a server restart."],
         [3, "GetAreaId", "", "Returns the area ID of the <a class=\"mod\" href=\"Map/index.html\">Map</a> at the specified X, Y, and Z coordinates."],
         [3, "GetDifficulty", "", "Returns the difficulty of the <a class=\"mod\" href=\"Map/index.html\">Map</a>."],
         [3, "GetHeight", "", "Returns the height of the <a class=\"mod\" href=\"Map/index.html\">Map</a> at the given X and Y coordinates."],
