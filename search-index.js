@@ -211,6 +211,7 @@ searchIndex["Achievement"] = {
         [3, "SetGoState", "", "Sets the state of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "SetLootState", "", "Sets the [LootState] of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> Below are [LootState]s off of 3.3.5a"],
         [3, "SetRespawnTime", "", "Sets the respawn or despawn time for the gameobject."],
+        [3, "SetType", "", ""],
         [3, "UseDoorOrButton", "", "Activates a door or a button/lever"],
     ],
     "paths": []
@@ -274,6 +275,7 @@ searchIndex["Achievement"] = {
         [3, "GetPlayersInWorld", "", "Returns a table with all the current <a class=\"mod\" href=\"Player/index.html\">Player</a>s in the world"],
         [3, "GetQuest", "", "Returns <a class=\"mod\" href=\"Quest/index.html\">Quest</a> template"],
         [3, "GetRealmID", "", ""],
+        [3, "GetSpellInfo", "", ""],
         [3, "GetStateInstanceId", "", "Returns the instance ID of the Lua state. Returns 0 for continent maps and the world state."],
         [3, "GetStateMap", "", "Returns the <a class=\"mod\" href=\"Map/index.html\">Map</a> pointer of the Lua state. Returns null for the &#34;World&#34; state. "],
         [3, "GetStateMapId", "", "Returns the map ID of the Lua state. Returns -1 for the &#34;World&#34; state."],
@@ -489,6 +491,7 @@ searchIndex["Achievement"] = {
         [0, "", "Map", "A game map, e.g. Azeroth, Eastern Kingdoms, the Molten Core, etc."],
         [3, "Data", "", "Returns a runtime-persistent cache tied to the <a class=\"mod\" href=\"Map/index.html\">Map</a>. This data will remain for as long as the <a class=\"mod\" href=\"Map/index.html\">Map</a> exists, or until a server restart."],
         [3, "GetAreaId", "", "Returns the area ID of the <a class=\"mod\" href=\"Map/index.html\">Map</a> at the specified X, Y, and Z coordinates."],
+        [3, "GetCreatureByAreaId", "", ""],
         [3, "GetDifficulty", "", "Returns the difficulty of the <a class=\"mod\" href=\"Map/index.html\">Map</a>."],
         [3, "GetGameObjectByAreaId", "", ""],
         [3, "GetHeight", "", "Returns the height of the <a class=\"mod\" href=\"Map/index.html\">Map</a> at the given X and Y coordinates."],
@@ -849,6 +852,7 @@ searchIndex["Achievement"] = {
         [3, "GetTarget", "", "Returns the target <a class=\"mod\" href=\"Object/index.html\">Object</a> of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "GetTargetDest", "", "Returns the target destination coordinates of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "IsAutoRepeat", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> is automatically repeating, <code>false</code> otherwise."],
+        [3, "SendCastResult", "", ""],
         [3, "SetAutoRepeat", "", "Sets the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> to automatically repeat."],
     ],
     "paths": []
