@@ -211,6 +211,7 @@ searchIndex["Achievement"] = {
         [3, "SetGoState", "", "Sets the state of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "SetLootState", "", "Sets the [LootState] of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> Below are [LootState]s off of 3.3.5a"],
         [3, "SetRespawnTime", "", "Sets the respawn or despawn time for the gameobject."],
+        [3, "SetType", "", ""],
         [3, "UseDoorOrButton", "", "Activates a door or a button/lever"],
     ],
     "paths": []
@@ -489,6 +490,7 @@ searchIndex["Achievement"] = {
         [0, "", "Map", "A game map, e.g. Azeroth, Eastern Kingdoms, the Molten Core, etc."],
         [3, "Data", "", "Returns a runtime-persistent cache tied to the <a class=\"mod\" href=\"Map/index.html\">Map</a>. This data will remain for as long as the <a class=\"mod\" href=\"Map/index.html\">Map</a> exists, or until a server restart."],
         [3, "GetAreaId", "", "Returns the area ID of the <a class=\"mod\" href=\"Map/index.html\">Map</a> at the specified X, Y, and Z coordinates."],
+        [3, "GetCreatureByAreaId", "", ""],
         [3, "GetDifficulty", "", "Returns the difficulty of the <a class=\"mod\" href=\"Map/index.html\">Map</a>."],
         [3, "GetGameObjectByAreaId", "", ""],
         [3, "GetHeight", "", "Returns the height of the <a class=\"mod\" href=\"Map/index.html\">Map</a> at the given X and Y coordinates."],
