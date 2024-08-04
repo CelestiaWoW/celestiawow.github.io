@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the Unit:GetShapeshiftForm method in the Eluna engine.">
+    <meta name="description" content="API documentation for the Unit:GetAuras method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, azerothcore, script, scripting, doc, docs, documentation">
 
-    <title>Unit:GetShapeshiftForm - Eluna</title>
+    <title>Unit:GetAuras - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
     <link rel="stylesheet" type="text/css" href="../static/dark.css">
@@ -30,7 +30,7 @@
     <script src="sidebar.js"></script>
     <script>
       // Highlight current method by adding "current" class to it
-      var element = document.getElementById("Unit:GetShapeshiftForm");
+      var element = document.getElementById("Unit:GetAuras");
       if (element) {
         var classname = "current";
         arr = element.className.split(" ");
@@ -57,7 +57,7 @@
 <section id='main' class="content mod">
     <h1 class='fqn'>
         Method
-    <a class="mod" href="../Unit/index.html">Unit</a>:<a class="fn" href="../Unit/GetShapeshiftForm.html">GetShapeshiftForm</a>
+    <a class="mod" href="../Unit/index.html">Unit</a>:<a class="fn" href="../Unit/GetAuras.html">GetAuras</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -68,13 +68,13 @@
 
     
     <div class='docblock'>
-        <p>Returns Shapeshift form of the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+        <p>Returns a table of all <a class="mod" href="../Aura/index.html">Aura</a>'s uf the <a class="mod" href="../Unit/index.html">Unit</a></p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>shapeshift = Unit:GetShapeshiftForm()</code>
+            <code>auras = Unit:GetAuras()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -89,7 +89,7 @@
         </h2>
         <p>
             <dl>
-                <dt><code><strong><a href="https://github.com/ElunaLuaEngine/ElunaTrinityWotlk/search?l=cpp&q=%22enum+uint32%22&type=Code&utf8=%E2%9C%93">uint32</a></strong> shapeshift</code></dt>
+                <dt><code><strong><a href="https://github.com/ElunaLuaEngine/ElunaTrinityWotlk/search?l=cpp&q=%22enum+table%22&type=Code&utf8=%E2%9C%93">table</a></strong> auras</code></dt>
                 <dd class="docblock"><em>See method description.</em></dd>
             </dl>
         </p>
