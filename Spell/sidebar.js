@@ -12,5 +12,6 @@ document.write(`
   <a id="Spell:GetTarget" class="fn" href="../Spell/GetTarget.html">GetTarget</a>
   <a id="Spell:GetTargetDest" class="fn" href="../Spell/GetTargetDest.html">GetTargetDest</a>
   <a id="Spell:IsAutoRepeat" class="fn" href="../Spell/IsAutoRepeat.html">IsAutoRepeat</a>
+  <a id="Spell:SendCastResult" class="fn" href="../Spell/SendCastResult.html">SendCastResult</a>
   <a id="Spell:SetAutoRepeat" class="fn" href="../Spell/SetAutoRepeat.html">SetAutoRepeat</a>
 `);
